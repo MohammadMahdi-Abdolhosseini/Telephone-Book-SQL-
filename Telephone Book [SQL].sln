@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1500
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephone Book [SQL]", "Telephone Book [SQL].csproj", "{722DCD63-4274-43CB-B56A-4E2911BDD88F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephone Book [SQL]", "Telephone Book [SQL].csproj", "{40E7C687-CACC-4FC8-ADA2-71F3597BB470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{722DCD63-4274-43CB-B56A-4E2911BDD88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{722DCD63-4274-43CB-B56A-4E2911BDD88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{722DCD63-4274-43CB-B56A-4E2911BDD88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{722DCD63-4274-43CB-B56A-4E2911BDD88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E7C687-CACC-4FC8-ADA2-71F3597BB470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E7C687-CACC-4FC8-ADA2-71F3597BB470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E7C687-CACC-4FC8-ADA2-71F3597BB470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E7C687-CACC-4FC8-ADA2-71F3597BB470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {59A7C968-ACB2-46C8-9CDE-BB4E67979C78}
+		SolutionGuid = {D5147593-6857-4F05-A761-3B8EEF8807A7}
 	EndGlobalSection
 EndGlobal
