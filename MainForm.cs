@@ -125,8 +125,14 @@ namespace Telephone_Book__SQL_
         {
             btnEdit.Enabled = true;
             btnDelete.Enabled = true;
-            ShowSelectedInfo();
+            ShowSelectedRow();
 
+        }
+
+        private void dataGridView_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ShowSelectedRow();
+            SetEditMode(true);
         }
 
         private void btnNew_Click(object sender, EventArgs e)
@@ -249,7 +255,7 @@ namespace Telephone_Book__SQL_
             }
         }
 
-        private void ShowSelectedInfo()
+        private void ShowSelectedRow()
         {
             connection.Open();
 
@@ -383,6 +389,6 @@ namespace Telephone_Book__SQL_
             connection.Close();
         }
 
-
+        
     }
 }

@@ -96,7 +96,7 @@
             this.birthdayDTP.Location = new System.Drawing.Point(72, 97);
             this.birthdayDTP.Name = "birthdayDTP";
             this.birthdayDTP.Size = new System.Drawing.Size(206, 27);
-            this.birthdayDTP.TabIndex = 9;
+            this.birthdayDTP.TabIndex = 2;
             this.birthdayDTP.Value = new System.DateTime(2000, 11, 5, 0, 0, 0, 0);
             // 
             // txtPhone
@@ -104,21 +104,21 @@
             this.txtPhone.Location = new System.Drawing.Point(72, 67);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(206, 27);
-            this.txtPhone.TabIndex = 8;
+            this.txtPhone.TabIndex = 1;
             // 
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(72, 37);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(206, 27);
-            this.txtName.TabIndex = 7;
+            this.txtName.TabIndex = 0;
             // 
             // btnBrowse
             // 
             this.btnBrowse.Location = new System.Drawing.Point(6, 130);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(110, 25);
-            this.btnBrowse.TabIndex = 6;
+            this.btnBrowse.TabIndex = 3;
             this.btnBrowse.Text = "Import Image";
             this.btnBrowse.UseVisualStyleBackColor = true;
             this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
@@ -149,7 +149,7 @@
             this.groupBoxPhoto.Location = new System.Drawing.Point(284, 22);
             this.groupBoxPhoto.Name = "groupBoxPhoto";
             this.groupBoxPhoto.Size = new System.Drawing.Size(99, 133);
-            this.groupBoxPhoto.TabIndex = 3;
+            this.groupBoxPhoto.TabIndex = 0;
             this.groupBoxPhoto.TabStop = false;
             this.groupBoxPhoto.Text = "Photo";
             // 
@@ -169,7 +169,7 @@
             this.label3.Location = new System.Drawing.Point(6, 100);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 20);
-            this.label3.TabIndex = 2;
+            this.label3.TabIndex = 0;
             this.label3.Text = "Birthday";
             // 
             // label2
@@ -178,7 +178,7 @@
             this.label2.Location = new System.Drawing.Point(6, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 20);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 0;
             this.label2.Text = "Phone";
             // 
             // label1
@@ -201,6 +201,7 @@
             this.dataGridView.Size = new System.Drawing.Size(648, 211);
             this.dataGridView.TabIndex = 1;
             this.dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
+            this.dataGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellDoubleClick);
             this.dataGridView.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView_KeyDown);
             // 
             // groupBoxContacts
@@ -226,7 +227,7 @@
             this.groupBoxSearch.Location = new System.Drawing.Point(407, 12);
             this.groupBoxSearch.Name = "groupBoxSearch";
             this.groupBoxSearch.Size = new System.Drawing.Size(265, 161);
-            this.groupBoxSearch.TabIndex = 3;
+            this.groupBoxSearch.TabIndex = 1;
             this.groupBoxSearch.TabStop = false;
             this.groupBoxSearch.Text = "Search";
             // 
@@ -236,7 +237,7 @@
             this.label7.Location = new System.Drawing.Point(6, 129);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(28, 20);
-            this.label7.TabIndex = 16;
+            this.label7.TabIndex = 0;
             this.label7.Text = "To";
             // 
             // label6
@@ -245,7 +246,7 @@
             this.label6.Location = new System.Drawing.Point(6, 100);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(48, 20);
-            this.label6.TabIndex = 15;
+            this.label6.TabIndex = 0;
             this.label6.Text = "From";
             // 
             // toDTP
@@ -254,7 +255,7 @@
             this.toDTP.Location = new System.Drawing.Point(61, 129);
             this.toDTP.Name = "toDTP";
             this.toDTP.Size = new System.Drawing.Size(198, 27);
-            this.toDTP.TabIndex = 13;
+            this.toDTP.TabIndex = 3;
             this.toDTP.Value = new System.DateTime(2025, 1, 1, 0, 0, 0, 0);
             this.toDTP.ValueChanged += new System.EventHandler(this.toDTP_ValueChanged);
             // 
@@ -265,7 +266,7 @@
             this.fromDTP.Name = "fromDTP";
             this.fromDTP.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.fromDTP.Size = new System.Drawing.Size(198, 27);
-            this.fromDTP.TabIndex = 10;
+            this.fromDTP.TabIndex = 2;
             this.fromDTP.Value = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
             this.fromDTP.ValueChanged += new System.EventHandler(this.fromDTP_ValueChanged);
             // 
@@ -274,7 +275,7 @@
             this.txtPhoneSearch.Location = new System.Drawing.Point(61, 67);
             this.txtPhoneSearch.Name = "txtPhoneSearch";
             this.txtPhoneSearch.Size = new System.Drawing.Size(198, 27);
-            this.txtPhoneSearch.TabIndex = 11;
+            this.txtPhoneSearch.TabIndex = 1;
             this.txtPhoneSearch.TextChanged += new System.EventHandler(this.txtPhoneSearch_TextChanged);
             // 
             // txtNameSearch
@@ -282,7 +283,7 @@
             this.txtNameSearch.Location = new System.Drawing.Point(61, 37);
             this.txtNameSearch.Name = "txtNameSearch";
             this.txtNameSearch.Size = new System.Drawing.Size(198, 27);
-            this.txtNameSearch.TabIndex = 10;
+            this.txtNameSearch.TabIndex = 0;
             this.txtNameSearch.TextChanged += new System.EventHandler(this.txtNameSearch_TextChanged);
             // 
             // label5
@@ -291,7 +292,7 @@
             this.label5.Location = new System.Drawing.Point(6, 70);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 20);
-            this.label5.TabIndex = 10;
+            this.label5.TabIndex = 0;
             this.label5.Text = "Phone";
             // 
             // label4
@@ -300,7 +301,7 @@
             this.label4.Location = new System.Drawing.Point(6, 40);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 20);
-            this.label4.TabIndex = 10;
+            this.label4.TabIndex = 0;
             this.label4.Text = "Name";
             // 
             // btnNew
@@ -308,7 +309,7 @@
             this.btnNew.Location = new System.Drawing.Point(597, 424);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(75, 25);
-            this.btnNew.TabIndex = 10;
+            this.btnNew.TabIndex = 5;
             this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = true;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
@@ -318,7 +319,7 @@
             this.btnEdit.Location = new System.Drawing.Point(516, 424);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 25);
-            this.btnEdit.TabIndex = 11;
+            this.btnEdit.TabIndex = 4;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
@@ -330,7 +331,7 @@
             this.label8.Location = new System.Drawing.Point(18, 428);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(75, 20);
-            this.label8.TabIndex = 12;
+            this.label8.TabIndex = 0;
             this.label8.Text = "Made By";
             // 
             // label9
@@ -340,7 +341,7 @@
             this.label9.Location = new System.Drawing.Point(87, 427);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(321, 24);
-            this.label9.TabIndex = 13;
+            this.label9.TabIndex = 0;
             this.label9.Text = "Mohammad Mahdi Abdolhosseini";
             // 
             // contactInfoDBDataSet
@@ -362,7 +363,7 @@
             this.btnDelete.Location = new System.Drawing.Point(435, 424);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 25);
-            this.btnDelete.TabIndex = 14;
+            this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
