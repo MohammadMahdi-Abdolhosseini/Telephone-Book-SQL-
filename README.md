@@ -14,13 +14,15 @@ Telephone Book (SQL) Application is a Windows Forms app written in C# that manag
 +    SQL Server (or SQL Server Express)
 
 ### Installation
-+   Download or clone the repository.
++    Download or clone the repository.
 +    Open the solution in Visual Studio.
-+    Update the database connection string in app.config.
++    Update the database connection string in 'app.config'.
 +    Build and run the application.
 
 ### Usage
-+    Use buttons to manage contacts: New, Edit, Delete.
++    Use buttons to manage contacts: "New", "Edit", "Delete".
++    Select a cell to display contact information.
++    Double-click cells to edit contact details.
 +    Search contacts with search fields.
-+    Import photos using the "Import Image" button.
-+    Save changes with "Save," discard with "Cancel."
++    Import photos with the "Import Image" button.
++    Save changes using "Save", discard with "Cancel".
